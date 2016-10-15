@@ -12,5 +12,11 @@
     <packaging>war</packaging>
     <name>Time Tracker (Web)</name>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>training.time-tracker</groupId>
+            <artifactId>time-tracker-core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>
