@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>training.time-tracker</groupId>
+    <groupId>clinic.programming.time-tracker</groupId>
     <artifactId>time-tracker-parent</artifactId>
     <packaging>pom</packaging>
     <version>0.3.1-SNAPSHOT</version>
@@ -10,7 +10,7 @@
         This is a simple Maven / Java web project.
     </description>
     <inceptionYear>2015</inceptionYear>
-    <url>http://maven.training/</url>
+    <url>http://jenkins.training/</url>
 
     <properties>
         <spring.version>4.1.6.RELEASE</spring.version>
@@ -22,7 +22,6 @@
         <module>core</module>
         <module>web</module>
     </modules>
-
 
     <build>
         <pluginManagement>

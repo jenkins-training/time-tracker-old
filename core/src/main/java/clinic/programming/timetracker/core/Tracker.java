@@ -1,8 +1,8 @@
-package pro.jtaylor.timetracker.core;
+package clinic.programming.timetracker.core;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import pro.jtaylor.timetracker.core.dao.TimeEntry;
+import clinic.programming.timetracker.core.dao.TimeEntry;
 
 import java.util.List;
 
@@ -27,4 +27,3 @@ public class Tracker {
         return entries.get(index);
     }
 }
-

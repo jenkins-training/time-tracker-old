@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>training.time-tracker</groupId>
+        <groupId>clinic.programming.time-tracker</groupId>
         <artifactId>time-tracker-parent</artifactId>
         <version>0.3.1-SNAPSHOT</version>
     </parent>
